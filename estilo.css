@@ -1,0 +1,59 @@
+/* RESETANDO DOCUMENTO HTML */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: rgb(16, 47, 223);
+    color: white;
+    text-align: center;
+    padding: 50px 0 50px 0 ; 
+    line-height:1.5;  
+}
+nav{
+    background-color: #053783
+}
+
+nav ul{ 
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+
+     list-style: none;
+     padding: 15px 0 15px 0;   
+}
+
+nav ul li:hover{
+    background-color: blueviolet;
+}
+
+nav ul li a{
+    color: rgb(0, 195, 254);
+    margin: 0 15px 0 15px;
+    font-weight: 800;
+    font-size: 18px; 
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    background-color: rgb(20, 169, 255);
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.sobre h1{
+    color: #053783;
+}
